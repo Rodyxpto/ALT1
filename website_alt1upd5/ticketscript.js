@@ -8,7 +8,7 @@ function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
-        button.addEventListener('click', removeCartItem)
+        button.addEventListener('click', removeCartItem) //creates an event called removeCartItem when removeCartItemButtons is clicked
     }
 
     var quantityInputs = document.getElementsByClassName('cart-quantity-input')
@@ -35,10 +35,11 @@ function purchaseClicked() {
     updateCartTotal()
 }
 
-function removeCartItem(event) {
-    var buttonClicked = event.target
+function removeCartItem(event) //creates an event
+{ 
+    var buttonClicked = event.target 
     buttonClicked.parentElement.parentElement.remove()
-    updateCartTotal()
+    updateCartTotal() //update the cart's total price
 }
 
 function quantityChanged(event) {
