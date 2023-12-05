@@ -1,0 +1,124 @@
+body{
+  font-family: Trebuchet MS;
+    background-image: url("https://api.lessmess.ca/uploads/Autumn_Leaves_2920da89b6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+  text-align:center;
+  background-color:rgba(255, 255, 255,0.8);
+  border-radius:10px;
+  background-size:500px;
+  
+}
+
+
+.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown button {
+    
+    background-color: #eb8401 ;
+    color: black;
+    padding: 24px 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    width: 160px;
+}
+.dropdown a {
+
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+
+}
+
+.dropdown .content {
+
+    display: none;
+    position: absolute;
+    background-color:  rgb(235, 132, 1);
+    padding: 6px 10px;
+    font-size: 22px;
+    z-index: 1;
+}
+
+.dropdown:hover .content {
+   
+    display: block;
+
+}
+
+.dropdown:hover button {
+
+    background-color:  rgb(255, 164, 0);
+
+}
+.dropdown a:hover {
+
+    background-color:  rgb(255, 164, 0);
+}
+
+.shop-items{
+   height: 100vh;
+    width: 100vw;
+    background-color: rgba(00, 00, 00, 0.6) !important;
+    border-radius:10px;
+    
+  
+}
+.ticket {
+    background-color: #eb8401;
+    background-size:cover;
+    color: black;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    width:800px;
+    height:50px;
+  }
+
+.shop-item-button {
+  background-color:#eb8401;
+  border-radius: 10px;
+  
+}
+
+.cart-container{
+  background-color:rgba(225, 225, 225, 0.9);
+  border-radius:10px;
+}
+
+/*--cart item details--*/
+
+.cart-page{
+  margin: 80px auto;
+}
+  table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background-color: blue;
+  font-weight: normal;
+  
+}
+

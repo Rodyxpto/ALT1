@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this is generic fill code i got it with ! + tab-->
+    <title>MT Festival</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<html>
+    
+    <body class ="contactbody">
+        
+        <div class="dropdown">
+            <button>Contact Us</button>
+            <div class="content">
+                <a href="index.html">Home</a>
+                <a href="stageone.html">Stage One</a>
+                <a href="stagetwo.html">Stage Two</a>
+                <a href="stagethree.html">Stage Three</a>
+                <a href="buy_tickets.html">Buy Tickets</a>
+            </div>
+        </div>
+
+        <div>
+
+            <form class="submission-form" action="http://127.0.0.1:5000/submit" method="post">
+                <legend id="legend">Contact us</legend>
+
+                <br>
+
+                <input type="text" id="name" placeholder="Name" required>
+
+                <br>
+
+                <input type="email" id="email" placeholder="Email" required>
+
+                <br>
+
+                <input type="tel" id="phone" placeholder="+353890965436" pattern="[+]{1}[0-9]{3}[0-9]{9}" required>
+
+                <br>
+
+                <textarea id ="question" placeholder="Enter a message..." required></textarea>
+
+                <br>
+
+                <input type="submit" value="Send" id="sendbtn" maxlength="5">
+
+            </form>
+            
+
+        </div>
+    </body>
+
+</html>

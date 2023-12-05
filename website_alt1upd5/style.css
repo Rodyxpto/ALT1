@@ -1,0 +1,344 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    height: max-content;
+}
+
+html {
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(photos/photo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+header {
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+
+}
+
+
+
+.title {
+
+    position: relative;
+    height: 100vh;
+    
+}
+
+h1 {
+
+    font-size: 4rem;
+
+    max-width: max-content;
+    max-height: max-content;
+    position: inline-block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 32vh;
+    color: white;
+    font-family: 'EB Garamond';
+    
+}
+
+
+h2 {
+    position: inline-block;
+    top: 45%;
+    left: 33vw;
+    font-size: 3rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: max-content;
+    max-height: max-content;
+    color: white;
+    font-family: 'EB Garamond';
+}
+
+.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown button {
+    
+    background-color: rgb(235, 132, 1) ;
+    color: black;
+    padding: 24px 48px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'EB Garamond';
+    width: 160px;
+}
+.dropdown a {
+
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+
+}
+
+.dropdown .content {
+
+    display: none;
+    position: absolute;
+    background-color:  rgb(235, 132, 1);
+    padding: 6px 10px;
+    font-size: 22px;
+    z-index: 1;
+}
+
+.dropdown:hover .content {
+   
+    display: block;
+
+}
+
+.dropdown:hover button {
+
+    background-color:  rgb(255, 164, 0);
+
+}
+.dropdown a:hover {
+
+    background-color:  rgb(255, 164, 0);
+}
+
+.buytickets {
+
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 2vh;
+
+}
+
+
+.buytickets a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.buytickets button {
+
+    background-color: rgb(235, 132, 1);
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    padding: 12px 48px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+
+}
+
+.buytickets button:hover {
+
+    background-color: rgb(255, 164, 0);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.name {
+     padding: 30px 90px;
+}
+
+.stage1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+
+}
+
+.question {
+
+    width: 80%;
+    padding: 30px 90px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+
+.stg1 {
+
+    color: black;
+    background-color: rgb(235, 132, 1);
+}
+
+#stageone.html {
+
+    background-color: black !important;
+}
+
+.undertitle {
+
+    height: 100vh;
+    width: 99.2vw;
+    background-color: black !important;
+}
+
+
+.bigstg1button {
+
+    display: flex !important;
+    justify-content: center !important;
+   
+}
+
+.bigstg1button a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-family: 'EB Garamond';
+    
+    
+}
+
+.bigstg1button button {
+
+    background: url(photos/photo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 20vh 10vw;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-right: 70%;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+
+}
+
+.bigstg1button button:hover {
+
+    cursor: pointer;
+    background: url(photos/photo1blur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 25px;
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 10px orange;
+
+}
+
+.bigstg2button a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-family: 'EB Garamond';
+
+}
+
+.bigstg2button {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.bigstg2button button {
+
+    background: url(photos/photo3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 22.5vh 8.5vw;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    
+
+}
+
+.bigstg2button button:hover {
+
+    cursor: pointer;
+    background: url(photos/photo3blur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 25px;
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 10px orange;
+
+}
+
+.buttontwo {
+
+   display: inline;
+   text-align: center;
+}
+
+.bigstg3button {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.bigstg3button a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-family: 'EB Garamond';
+
+}
+
+.bigstg3button button {
+
+    background: url(photos/photo4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 20vh 10vw;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    margin-left: 70%;
+    right: 2%;
+
+}
+
+.bigstg3button button:hover {
+
+    cursor: pointer;
+    background: url(photos/photo4blur.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    border-radius: 25px;
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 10px orange;
+
+}
+
+
