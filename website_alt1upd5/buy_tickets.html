@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MT AUTUMN FAIR TICKETS</title>
-        <link rel="stylesheet" href="styletwo.css" />
-        <script src="ticketscript.js" async></script>
+        <title>MT AUTUMN FAIR TICKETS</title> <!--title of page-->
+        <link rel="stylesheet" href="styletwo.css" /> <!--linking css file-->
+        <script src="ticketscript.js" async></script> <!--linking js file-->
     </head>
   
     <body>
-      <div class="dropdown">
-        <button>Buy Tickets</button>
+      <div class="dropdown"> <!-- drop down menu containing buttons linking to other pages on the website-->
+        <button>Buy Tickets</button> 
         <div class="content">
           <a href="index.html">Home</a>
           <a href="contact.html">Contact us</a>
@@ -17,18 +17,18 @@
           <a href="stagethree.html">Stage Three</a>
         </div>
       </div>
-      <div class="header">
+      <div class="header"> <!--headings-->
         <header class="main-header">
             <h1 class="heading">MT AUTUMN FAIR</h1>
           <h2 class="section-header">TICKETS</h2>
         </header>
       </div> 
-        <section class="container">
+        <section class="container"> <!--creating a section for the shop items-->
             
           
-            <div class="shop-items">
+            <div class="shop-items"> <!--created a div to hold all the items-->
               <br>
-                <div class="ticket">
+                <div class="ticket"> <!--div class for the specific ticket, containing span class with the ticket title, details of the ticket such as price and a ADD TO CART button-->
                     <span class="ticket-title">FRIDAY</span>
                     <div class="ticket-details">
                         <span class="ticket-price">€5.00</span>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             <br>
-                <div class="ticket">
+                <div class="ticket"> <!--ditto-->
                     <span class="ticket-title">SATURDAY</span>
                     <div class="ticket-details">
                         <span class="ticket-price">€5.00</span>
@@ -46,7 +46,7 @@
                     </div>
                 </div>
               <br>
-                <div class="ticket">
+                <div class="ticket"> <!--ditto-->
                     <span class="ticket-title">SUNDAY</span>
                     <div class="ticket-details">
                         <span class="ticket-price">€5.00</span>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
               <br>
-                <div class="ticket">
+                <div class="ticket"> <!--ditto-->
                     <span class="ticket-title">ALL WEEKEND</span>
                     <div class="ticket-details">
                         <span class="ticket-price">€12.00</span>
@@ -66,21 +66,21 @@
             </div>
         </section>
         
-        <section class="cart-container">
+        <section class="cart-container"> <!--new section for the cart-->
         <br>
             <h2 class="section-header">CART</h2>
-            <div class="cart-row">
+            <div class="cart-row"> <!--div to hold the item's, price and quanity-->
                 <span class="cart-item cart-header cart-column">ITEM</span>
                 <span class="cart-price cart-header cart-column">PRICE</span>
                 <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
             <div class="cart-items">
             </div>
-            <div class="cart-total">
-                <strong class="cart-total-title">Total</strong>
-                <span class="cart-total-price">€0</span>
+            <div class="cart-total"> <!--div for cart total-->
+                <strong class="cart-total-title">Total</strong> <!--total in a strong tag to grab attention-->
+                <span class="cart-total-price">€0</span> <!--span containing the total price-->
             </div>
-            <button id="purchase-btn" class="btn-purchase" onclick="confirm()" value="my value">PURCHASE</button>
+            <button class="btn-purchase">PURCHASE</button> <!--purchase button-->
          <br>
         </section> 
     </body>
